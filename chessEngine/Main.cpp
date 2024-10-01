@@ -7,9 +7,9 @@
 #include <string>
 #include <iostream>
 #include "ChessConstants.hpp"
-#include "ChessDisplay.h"
 
 int main()
 {
-	Engine engine;
+	Engine engine{ start_position_fen };
+	engine.step(true, false, 6);
 }
