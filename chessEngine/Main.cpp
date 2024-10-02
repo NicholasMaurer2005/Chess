@@ -11,5 +11,5 @@
 int main()
 {
 	Engine engine{ start_position_fen };
-	engine.step(true, false, 6);
+	engine.step(true, false, 8);
 }
